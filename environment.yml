@@ -1,0 +1,22 @@
+name: overlay_large_geometries
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.10
+  - numpy=1.22.4
+  - pandas=1.4.2
+  - geopandas=0.10.2
+  - shapely=1.8.2
+  - pygeos=0.12.0
+  - pyarrow=8.0.0
+  - zipfile-deflate64=0.2.0
+  - requests=2.27.1
+  - colorama=0.4.4
+  - tqdm=4.64.0
+  - psutil=5.9.1
+  - beautifulsoup4=4.11.1
+  - pip
+  - pip:
+      - boxsdk==3.3.0
+      - boxsdk[jwt]

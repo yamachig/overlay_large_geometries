@@ -1,0 +1,7 @@
+.env
+.box.json
+/orig_data
+/data
+out_*
+.vscode
+__pycache__
